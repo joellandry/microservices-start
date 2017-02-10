@@ -8,5 +8,5 @@ eureka:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   dashboard:
-    path: /eureka
+    path: http://${eureka.instance.hostname}:${server.port}/eureka/
     
